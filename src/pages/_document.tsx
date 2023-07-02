@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-<a href="https://tarsai.netlify.app/">
+<a href="/">
         <link rel="icon" href="/images/tars_favicon-removebg-preview.png" />
 </a>
       </Head>
