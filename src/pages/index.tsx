@@ -18,7 +18,7 @@ const Home: NextPage = () => {
             </p>
           </div>
           <div className={`${styles.half} flex justify-end`}>
-            <a href="/destination.tsx"
+            <a href="https://tarsai.netlify.app/destination"
               className={`${styles.exploreBtn} after:grid
                                 after:place-content-center`}
             ></a>
