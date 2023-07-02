@@ -21,7 +21,7 @@ export default function Layout(props: {
   return (
     <React.Fragment>
       <Head>
-        <title>Frontend Mentor | Space tourism website</title>
+        <title>Tars.Ai</title>
       </Head>
       <div className="fixed w-full h-full top-0 left-0 -z-50">
         <Image
