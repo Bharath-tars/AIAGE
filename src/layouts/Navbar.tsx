@@ -6,8 +6,8 @@ import { CSSTransition } from "react-transition-group";
 
 const menuItems = [
   { name: "HOME", href: "/" },
-  { name: "DESTINATION", href: "/destination" },
-  { name: "CREW", href: "/crew" },
+  { name: "MOJO", href: "/destination" },
+  { name: "FOUNDER", href: "/crew" },
   { name: "TECHNOLOGY", href: "/technology" },
 ];
 
