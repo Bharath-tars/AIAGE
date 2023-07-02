@@ -16,7 +16,7 @@
 }
 
 .paragraph {
-  max-width: 27.75rem;
+  max-width: 24.75rem;
 }
 
 .exploreBtn {
@@ -65,7 +65,7 @@
   }
 
   .paragraph {
-    max-width: 27.75rem;
+    max-width: 24.75rem;
   }
 
   .exploreBtn {
@@ -99,3 +99,4 @@
     width: 100%;
   }
 }
+
