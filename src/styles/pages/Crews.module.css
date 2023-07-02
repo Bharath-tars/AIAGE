@@ -6,6 +6,7 @@
 
 .heading {
   margin-top: 0.62rem;
+  font-size: 1.9rem;
 }
 .paragraph {
   max-width: 20.4375rem;
@@ -14,8 +15,18 @@
   margin-top: 1.24rem;
   text-transform: none;
 }
+/* .social-icon {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
 
-.circles {
+.social-icon li {
+  display: inline-block;
+  list-style: none;
+} */
+
+/* .circles {
   width: 5.5rem;
   height: 0.625rem;
 
@@ -37,7 +48,7 @@
       opacity: 1;
     }
   }
-}
+} */
 
 @mixin breakpoint-down theme('screens.sm') {
   .imageCon {
@@ -47,7 +58,7 @@
       height: 13.875rem;
     }
     &.hurley > .image {
-      height: 14.875rem;
+      height: 19.875rem;
       margin-bottom: -1rem;
     }
   }
@@ -86,6 +97,7 @@
   }
   .heading {
     margin-top: 1.25rem;
+
   }
 
   .imageCon {
@@ -99,7 +111,9 @@
   .imageAnimEnter {
     transform: translateY(24.0601%) scale(0.8);
   }
-
+  .socialLinks{
+        align-items: center;
+  }
   .paragraph {
     &.hurley {
       max-width: 28.75rem;
@@ -126,6 +140,7 @@
   }
   .heading {
     max-width: 55vw;
+
   }
   .paragraph {
     max-width: 27.75rem !important;
@@ -140,7 +155,10 @@
     width: 8.25rem;
     height: 0.9375rem;
   }
-
+  .socialLinks{
+    flex-direction: column; 
+        align-items: center;
+  }
   .imageCon {
     position: absolute;
     bottom: 0;
@@ -166,3 +184,4 @@
     transform-origin: left top;
   }
 }
+
