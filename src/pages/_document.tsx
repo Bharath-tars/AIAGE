@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <link rel="icon" href="/images/favicon-32x32.png" />
+        <link rel="icon" href="/images/tars_favicon-removebg-preview.png" />
       </Head>
       <body>
         <Main />
