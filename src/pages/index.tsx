@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <div className={`container ${styles.container}`}>
           <div className={styles.half}>
             <h5 className="heading-5 text-blue">Welcome to the future of AI!</h5>
-            <h1 className="heading-1 sm:mt-7 mt-5">Hehe</h1>
+            <h1 className="heading-1 sm:mt-7 mt-5">TARS</h1>
             <p className={`text-blue sm:mt-7 mt-5 ${styles.paragraph}`}>
             We are revolutionizing how people use artificial intelligence to foster development and innovation. 
             Prepare to go on a revolutionary adventure as we unleash the full power of AI technology to propel the future of the humanity to new heights! #TARS2K35
