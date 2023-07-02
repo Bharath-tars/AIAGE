@@ -21,7 +21,7 @@ const Home: NextPage = () => {
           </div>
           <div className={`${styles.half} flex justify-end`}>
             <a
-              href="#!"
+              href="/destination"
               className={`${styles.exploreBtn} after:grid
                                 after:place-content-center`}
             ></a>
