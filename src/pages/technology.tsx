@@ -16,7 +16,7 @@ const Technology: NextPage = () => {
     <Layout background="technology">
       <PrimaryPageTitle className="!max-w-[1290px] mr-0 !px-4">
         <span className="number">3</span>
-        SPACE LAUNCH 101
+        TECH PROJECTS TILL DATE
       </PrimaryPageTitle>
       {techs.map((tech, i) =>
         isBreakpointLg ? (
@@ -61,13 +61,21 @@ const TechnologyItem = () => {
         <div className="lg:mt-0 sm:mt-11 mt-[1.625rem] lg:px-0 px-3">
           <Animation id={index}>
             <div>
-              <h3 className="nav-font text-blue">the terminology</h3>
+              <h3 className="nav-font text-blue">TARS ALKALI-I</h3>
               <h1 className={`${styles.heading} heading-3 uppercase`}>
                 {tech.name}
               </h1>
               <p className={`${styles.paragraph} text-blue mx-auto lg:mx-0`}>
                 {tech.description}
               </p>
+              <p className={`${styles.git} text-blue mx-auto lg:mx-0`}>
+              <a href={tech.repo}  target="_blank" rel="noreferrer">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" className="bi bi-github" viewBox="0 0 16 16">
+  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                              </svg>
+               </a>
+              </p>
+              <br></br>
             </div>
           </Animation>
         </div>
@@ -96,41 +104,35 @@ const TechnologyItem = () => {
 // <Data> //
 const techs = [
   {
-    name: "Launch vehicle",
+    name: "DealBuddy",
     images: {
-      portrait: "/images/technology/image-launch-vehicle-portrait.jpg",
-      landscape: "/images/technology/image-launch-vehicle-landscape.jpg",
+      portrait: "/images/technology/image-price-portrait.png",
+      landscape: "/images/technology/image-price-landscape.png",
     },
     description:
-      "A launch vehicle or carrier rocket is a rocket-propelled vehicle used " +
-      "to carry a payload from Earth's surface to space, usually to Earth orbit " +
-      "or beyond. Our WEB-X carrier rocket is the most powerful in operation. " +
-      "Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!",
+      "Track and predict E-Commerce prices like never before with our tech solution. Powered by Selenium WebDriver for accurate price tracking and machine learning algorithms for future price prediction, our tool revolutionizes how you shop on E-Commerce markets. Stay updated with real-time price fluctuations, analyze historical data for trends, and make data-driven decisions. ",
+    repo: "https://github.com/Bharath-tars/Amazon_Automatic_Price_Notifier",
   },
   {
-    name: "Spaceport",
+    name: "EmoSenseAI",
     images: {
-      portrait: "/images/technology/image-spaceport-portrait.jpg",
-      landscape: "/images/technology/image-spaceport-landscape.jpg",
+      portrait: "/images/technology/image-sentiment-portrait.png",
+      landscape: "/images/technology/image-sentiment-landscape.png",
     },
     description:
-      "A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by " +
-      "analogy to the seaport for ships or airport for aircraft. Based in the famous " +
-      "Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth's " +
-      "rotation for launch.",
-  },
+      "Sentiment analysis using Azure Cognitive Services enables automatic identification and classification of emotions in text data, providing insights and recomendations for better decision-making. The purpose of sentiment analysis is to identify the sentiment or polarity of the text, it is a common use case for customer feedback analysis, and market research.",
+      repo: "https://github.com/Bharath-tars/Azure-Cognitive-Services_Sentiment-Analysis",
+    },
   {
-    name: "Space capsule",
+    name: "DeepTumor",
     images: {
-      portrait: "/images/technology/image-space-capsule-portrait.jpg",
-      landscape: "/images/technology/image-space-capsule-landscape.jpg",
+      portrait: "/images/technology/image-deep-portrait.png",
+      landscape: "/images/technology/image-deep-landscape.png",
     },
     description:
-      "A space capsule is an often-crewed spacecraft that uses a blunt-body reentry " +
-      "capsule to reenter the Earth's atmosphere without wings. Our capsule is where " +
-      "you'll spend your time during the flight. It includes a space gym, cinema, and " +
-      "plenty of other activities to keep you entertained.",
-  },
+      "This project will be an important tool for healthcareprofessionals to improve the diagnosis and treatment of brain tumors. The high accuracy and efficiency of our deep learning model will ensure that patients receive timely and accurate information, leading to better patient outcomes.",
+    repo: "https://github.com/Bharath-tars/DeepTumor",
+    },
 ];
 // </Data> //
 
