@@ -14,12 +14,12 @@
   > div {
     width: 100%;
     height: max-content;
-    max-width: 22.3875rem;
+    max-width: 19.3875rem;
   }
 }
 
 .image {
-  --size: 10.625rem;
+  --size: 20.625rem;
   width: var(--size);
   height: var(--size);
   margin-left: auto;
@@ -97,16 +97,16 @@
   }
 
   .image {
-    --size: 18.75rem;
+    --size: 20.75rem;
   }
 
   .menu {
     height: 2.125rem;
     margin-bottom: 2rem;
-    margin-top: 3.3125rem;
+    margin-top: 1.3125rem;
     font-size: theme("fontSize.16");
-    letter-spacing: theme("letterSpacing[2.7]");
-    max-width: 17.84375rem;
+    letter-spacing: 0.1rem;
+    max-width: 80rem;
   }
 }
 
@@ -139,5 +139,10 @@
   .menu {
     margin-bottom: 2.3125rem;
     margin-top: 0;
+    font-size: theme("fontSize.16");
+    letter-spacing: 0.1rem;
+    max-width: 80rem;
+
   }
 }
+
