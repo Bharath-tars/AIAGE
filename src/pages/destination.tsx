@@ -12,7 +12,7 @@ const Destinations: NextPage = () => {
     <Layout className={`text-white pb-2.5`} background="destination">
       <PrimaryPageTitle className={styles.title}>
         <span className="number">1</span>
-        PICK YOUR DESTINATION
+        LOOK AT OUR MOJOS
       </PrimaryPageTitle>
       <Destination />
     </Layout>
@@ -67,7 +67,7 @@ const Destination = () => {
           </ul>
           <TextAnim index={index}>
             <div>
-              <h1 className="heading-2">{destination.name.toUpperCase()}</h1>
+              <p className="heading-2">{destination.name.toUpperCase()}</p>
               <p className="text-blue sm:mt-5 mt-3 sm:mb-12 mb-7">
                 {destination.description}
               </p>
@@ -77,11 +77,11 @@ const Destination = () => {
           <TextAnim index={index}>
             <div className="sm:flex my-7 sm:space-y-0 space-y-7">
               <div className="flex-grow space-y-3.5">
-                <h4 className="subheading-2 text-blue">AVG. DISTANCE</h4>
+                <h4 className="subheading-2 text-blue">AVG. SUCCESS</h4>
                 <h3 className="subheading-1">{destination.distance}</h3>
               </div>
               <div className="flex-grow space-y-3.5">
-                <h4 className="subheading-2 text-blue">Est. travel time</h4>
+                <h4 className="subheading-2 text-blue">Est. ACCURACY</h4>
                 <h3 className="subheading-1">{destination.travel}</h3>
               </div>
             </div>
@@ -144,56 +144,48 @@ const TextAnim = ({
 // <Data> //
 const destinations = [
   {
-    name: "Moon",
+    name: "Innovate",
     images: {
-      png: "/images/destination/image-moon.png",
-      webp: "/images/destination/image-moon.webp",
+      png: "/images/destination/image-inno.jpg",
+      webp: "/images/destination/image-inno.webp",
     },
     description:
-      "See our planet as you've never seen it before. A perfect relaxing trip away " +
-      "to help regain perspective and come back refreshed. While you're there, take " +
-      "in some history by visiting the Luna 2 and Apollo 11 landing sites.",
-    distance: "384,400 km",
-    travel: "3 days",
+      "At TARS, we thrive on innovation. We continuously push boundaries, exploring new horizons and technologies to develop groundbreaking AI solutions. Our passion for innovation fuels our drive to create transformative AI experiences that unlock unprecedented opportunities for our clients.",
+    distance: "78%",
+    travel: "99.9%",
   },
   {
-    name: "Mars",
+    name: "Colab",
     images: {
-      png: "/images/destination/image-mars.png",
-      webp: "/images/destination/image-mars.webp",
+      png: "/images/destination/image-vate.png",
+      webp: "/images/destination/image-vate.webp",
     },
     description:
-      "Don't forget to pack your hiking boots. You'll need them to tackle Olympus Mons, " +
-      "the tallest planetary mountain in our solar system. It's two and a half times " +
-      "the size of Everest!",
-    distance: "225 mil. km",
-    travel: "9 months",
+      "Collaboration lies at the heart of everything we do. We believe that the best outcomes are achieved through diverse perspectives and collective intelligence. By fostering a culture of collaboration, we forge strong partnerships with our clients, working together to co-create tailored AI solutions that meet their unique needs.",
+    distance: "91%",
+    travel: "95%",
   },
   {
-    name: "Europa",
+    name: "Grow",
     images: {
-      png: "/images/destination/image-europa.png",
-      webp: "/images/destination/image-europa.webp",
+      png: "/images/destination/image-growth.png",
+      webp: "/images/destination/image-growth.webp",
     },
     description:
-      "The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter " +
-      "lover's dream. With an icy surface, it's perfect for a bit of ice skating, curling, " +
-      "hockey, or simple relaxation in your snug wintery cabin.",
-    distance: "628 mil. km",
-    travel: "3 years",
+      "We empower businesses to harness the true potential of AI. Our user-friendly interfaces and intuitive platforms enable organizations of all sizes to adopt and integrate AI seamlessly. Through education and support, we empower individuals and teams to become AI-enabled, driving their own success in the digital landscape.",
+    distance: "72%",
+    travel: "99.9%",
   },
   {
-    name: "Titan",
+    name: "Social",
     images: {
-      png: "/images/destination/image-titan.png",
-      webp: "/images/destination/image-titan.webp",
+      png: "/images/destination/image-social.png",
+      webp: "/images/destination/image-social.webp",
     },
     description:
-      "The only moon known to have a dense atmosphere other than Earth, Titan is a home away " +
-      "from home (just a few hundred degrees colder!). As a bonus, you get striking views of " +
-      "the Rings of Saturn.",
-    distance: "1.6 bil. km",
-    travel: "7 years",
+      "We are driven by a deep commitment to create a positive social impact. Our AI solutions are designed to address pressing global challenges, such as healthcare, education, sustainability, and social justice. By leveraging AI for the greater good, we strive to contribute to a more equitable and sustainable future for all.",
+    distance: "50%",
+    travel: "100%",
   },
 ];
 // </Data> //
