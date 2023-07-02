@@ -11,13 +11,12 @@ const Home: NextPage = () => {
       <header className={`${styles.hero} h-full`}>
         <div className={`container ${styles.container}`}>
           <div className={styles.half}>
-            <h5 className="heading-5 text-blue">SO, YOU WANT TO TRAVEL TO</h5>
-            <h1 className="heading-1 sm:mt-7 mt-5">SPACE</h1>
+            <h5 className="heading-5 text-blue">Welcome to the future of AI!</h5>
+            <h1 className="heading-1 sm:mt-7 mt-5">TARS</h1>
             <p className={`text-blue sm:mt-7 mt-5 ${styles.paragraph}`}>
-              Let&apos;s face it; if you want to go to space, you might as well
-              genuinely go to outer space and not hover kind of on the edge of
-              it. Well sit back, and relax because we&apos;ll give you a truly
-              out of this world experience!
+              We are revolutionizing how people use artificial intelligence to foster development and innovation. 
+            Prepare to go on a revolutionary adventure as we unleash the full power of AI technology to propel the future 
+              of the humanity to new heights! #TARS2K35
             </p>
           </div>
           <div className={`${styles.half} flex justify-end`}>
