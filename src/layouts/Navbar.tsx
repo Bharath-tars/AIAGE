@@ -20,7 +20,7 @@ const Navbar: React.FC = () => {
       className={`text-white ${styles.navbar} flex justify-between items-center nav-font`}
     >
       <figure className={styles.logo}>
-        <img src="/images/shared/logo.svg" />
+        <img src="/images/Untitled_design__3_-removebg-preview.png" />
       </figure>
       <hr
         className={`flex-grow ml-14 -mr-7 h-px border-white border-opacity-25
